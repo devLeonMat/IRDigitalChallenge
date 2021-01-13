@@ -9,14 +9,15 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import lombok.extern.log4j.Log4j2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SimpleCorsFilter implements Filter{
-
-    private final Logger log = LoggerFactory.getLogger(SimpleCorsFilter.class);
+@Log4j2
+public class SimpleCorsFilter implements Filter {
 
     public SimpleCorsFilter() {
         log.info("SimpleCORSFilter init");
