@@ -1,5 +1,6 @@
 IRDigitalChallenge
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=leonmatias2015_IRDigitalChallenge&metric=alert_status)](https://sonarcloud.io/dashboard?id=leonmatias2015_IRDigitalChallenge)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=leonmatias2015_IRDigitalChallenge&metric=bugs)](https://sonarcloud.io/dashboard?id=leonmatias2015_IRDigitalChallenge)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=leonmatias2015_IRDigitalChallenge&metric=code_smells)](https://sonarcloud.io/dashboard?id=leonmatias2015_IRDigitalChallenge)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=leonmatias2015_IRDigitalChallenge&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=leonmatias2015_IRDigitalChallenge)
