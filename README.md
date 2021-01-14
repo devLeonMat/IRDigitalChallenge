@@ -1,4 +1,4 @@
-IRDigitalChallenge
+# IRDigitalChallenge
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=leonmatias2015_IRDigitalChallenge&metric=alert_status)](https://sonarcloud.io/dashboard?id=leonmatias2015_IRDigitalChallenge)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=leonmatias2015_IRDigitalChallenge&metric=bugs)](https://sonarcloud.io/dashboard?id=leonmatias2015_IRDigitalChallenge)
@@ -10,17 +10,21 @@ IRDigitalChallenge
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=leonmatias2015_IRDigitalChallenge&metric=sqale_index)](https://sonarcloud.io/dashboard?id=leonmatias2015_IRDigitalChallenge)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=leonmatias2015_IRDigitalChallenge&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=leonmatias2015_IRDigitalChallenge)
 
+
 **Description:**
+|                |Version                          |
+|----------------|-------------------------------|
+|Java            |`'8'`            |
+|Spring Boot          |`2.2.1.RELEASE`            |
+|MongoDB          |`Atlas`|
 
-Data Base: MongoDB cloud
-Framework: Spring Boot 2
+ [Swagger](http://cloudmsclient-env.eba-34ryryis.us-east-1.elasticbeanstalk.com/swagger-ui.html#/),
 
-Swagger: http://cloudmsclient-env.eba-34ryryis.us-east-1.elasticbeanstalk.com/swagger-ui.html#/
+Compile and Deploy.
 
-`Compile
+	`$ mvn clean package ` 
 
-$ mvn clean package
-`
+
 
 
 
