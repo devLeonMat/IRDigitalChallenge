@@ -16,7 +16,6 @@ public class ResponseApi {
         this.data = data;
     }
 
-
     public ResponseApi(int cod, String message) {
         this.code = cod;
         this.message = message;
