@@ -27,11 +27,6 @@ public class ClientController {
         this.clientService = clientServ;
     }
 
-    @GetMapping(value = "/status")
-    public String checkStatus() {
-        return "ok";
-    }
-
     @PostMapping(value = "/creacliente")
     @ApiOperation(value = "Creacion de nuevo Cliente", notes = "Crea un nuevo cliente")
     public ResponseEntity<?> createQualification(@Valid @RequestBody Client client) {
